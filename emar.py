@@ -7,8 +7,8 @@
 """Archive helper script
 
 This script is a simple wrapper around llvm-ar.  It used to have special
-handling for duplicate basenames in order to allow bitcode linking prcoess to
-read such files.  This is now hanled by using tools/arfile.py to read archives.
+handling for duplicate basenames in order to allow bitcode linking process to
+read such files.  This is now handled by using tools/arfile.py to read archives.
 """
 
 import sys

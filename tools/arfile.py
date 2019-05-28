@@ -5,13 +5,12 @@
 
 """Utility functions for parsing 'ar' files.
 
-This is needed in emsripten because command line tools such as llvm-ar are not
+This is needed in emscripten because command line tools such as llvm-ar are not
 able to deal with archives containing many files with the same name.  Despite
-this linker are expected to handle this case and emscripten needs to emulate
+this, linkers are expected to handle this case and emscripten needs to emulate
 linker behaviour when using the fastcomp backend.
 
 See https://en.wikipedia.org/wiki/Ar_(Unix)
-
 """
 
 from __future__ import print_function
